@@ -1,0 +1,10 @@
+/* =====================================
+   Grid Styles
+======================================== */
+
+.grid {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 33.3333% auto;
+  /*grid-template-rows: 200px;*/
+}
