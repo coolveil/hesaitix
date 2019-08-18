@@ -1,0 +1,37 @@
+/* =====================================
+   Page Styles
+======================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+  font-family: philosopher, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	color: #6e859c;
+  padding: 0;
+  margin: 0;
+	background: #e8e9e9;
+}
+.grid {
+  background: #fff;
+	margin: 45px auto;
+}
+.item {
+  font-size: 1.4em;
+  color: #000;
+  text-shadow: 0 2px 0 rgba(110,133,156,0.18);
+  padding: 1.2em;
+  background: #b3b3b3;
+}
+
+.special {
+  font-size: .7em;
+  font-family: moby;
+  font-weight: 400;
+  font-style: normal;
+}
+.item:nth-child(even) {
+  background: #9e9e9e;
+}
